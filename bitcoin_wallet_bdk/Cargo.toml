@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+bdk = { version = "0.28.0", features = ["all-keys", "key-value-db"] }
+anyhow = "1.0"
+tracing = "0.1.41"
+uuid = { version = "1.16.0", features = ["v4"] }
